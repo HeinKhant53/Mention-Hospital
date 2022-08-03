@@ -74,7 +74,7 @@
                 <div id="mynav" class="navbar-collapse collapse">
                     <ul class="navbar-nav ms-auto"> 
                         <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Feature</a></li>
+                        <li class="nav-item"><a href="#features" class="nav-link">Feature</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Department</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Our Team</a></li>
@@ -87,48 +87,125 @@
         <!-- End Nav Bar -->
 
         <!-- Start Banner Section -->
-        <section>  <!--Carousel-->
+        <section>
             <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li class="active" data-bs-target="#mycarousel" data-bs-slide-to="0"></li>
+                <ul class="carousel-indicators">
+                    <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
                     <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
                     <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
-                </ol>
-
+                </ul>
+    
                 <div class="carousel-inner">
                     <div class="carousel-item active banners1">
                         <div class="container">
-                            <div>
-                                <h1 class="text-uppercase display-4">Providing Health Cares Solution</h1>
-                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="carousel-caption d-none d-sm-block mb-5">
+                                <h1 class="display-3 text-uppercase">Providing Health Cares Solution</h1>
+                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                 <a href="#" class="btn btn-blues btn-lg">Our Service</a>
                             </div>
                         </div>
                     </div>
-               
                     <div class="carousel-item banners2">
                         <div class="container">
-                            <div>
-                                <h1 class="text-uppercase display-4">Providing Tab Lab Solution</h1>
-                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="carousel-caption d-none d-sm-block mb-5">
+                                <h1 class="display-3 text-uppercase">Providing Total Lab Solution</h1>
+                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                 <a href="#" class="btn btn-blues btn-lg">Our Service</a>
                             </div>
                         </div>
-                    </div>
-                
-                    <div class="carousel-item  banners3">
+                    </div>                
+                    <div class="carousel-item banners3">
                         <div class="container">
-                            <div>
-                                <h1 class="text-uppercase display-4">Your Healthy Life IS Our Pirority</h1>
-                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="carousel-caption d-none d-sm-block mb-5">
+                                <h1 class="display-3 text-uppercase">Your Healthy Life Is Our Pirority</h1>
+                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                 <a href="#" class="btn btn-blues btn-lg">Our Service</a>
                             </div>
+                        </div>
+                    </div>               
+                </div>
+
+                <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+
+                <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </section>
+        <!-- End Banner Section -->
+
+
+        <!-- Start Feature Section -->
+        <section id="features" class="pt-5 text-center">
+
+            <div class="container">
+                <!-- start title -->
+                <div class="row">
+                    <div class="col-md-12 mb-5">
+                        <h4 class="display-5">Our Features</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <!-- end title -->
+
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <div class="iconboxes">
+                            <div class="icons">
+                                <i class="fas fa-ambulance fa-2x"></i>
+                            </div>
+                            <h4>Emergency Care</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="iconboxes">
+                            <div class="icons">
+                                <i class="fas fa-stethoscope fa-2x"></i>
+                            </div>
+                            <h4>Oualified Doctor</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="iconboxes">
+                            <div class="icons">
+                                <i class="fas fa-hospital-user fa-2x"></i>
+                            </div>
+                            <h4>24/7 Hours Service</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
-        <!-- End Banner Section -->
+
+        <!-- End Feature Section -->
+
+        <!-- Start Info Section -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 align-self-center infotexts fromlefts">
+                        <h4 class="text-uppercase">
+                            We ensure medical care for you with best quality service guaranteed
+                        </h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+
+                        <a href="#" class="btn btn-blues btn-lg">Make Appintment</a>
+                    </div>
+                    <div class="col-md-6 text-center text-lg-end infopics fromrights">
+                        <img src="./assets/img/users/faqs.png" width="300px" alt="faqs">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Info Section -->
 
     </header>
     <!-- End Header Section -->
