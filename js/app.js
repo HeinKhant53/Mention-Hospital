@@ -57,4 +57,9 @@ $(window).scroll(function(){
     }
 })
 // End Pricing Section
+
+// Start Join Us Section
+    $("#accordion").accordion();
+// End Join Us Section
+
 });
