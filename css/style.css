@@ -351,3 +351,65 @@ body{
 }
 
 /* End Join Us Section */
+
+
+/* Start Footer Section*/
+.socialicons a{
+    color: #fff;
+    border: 1px solid #f4f4f4;
+    padding: 5px;
+    margin: 0 5px;
+}
+.socialicons a:hover{
+    background-color: blue;
+}
+.footerlinks{
+    color: #eee;
+    font-size: 13px;
+    text-decoration: none;
+    transition: all .3s;
+}
+.footerlinks:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+    letter-spacing: 1px;
+}
+
+/* End Footer Section */
+
+/* Start Progress */
+#progress{
+    width: 50px;
+    height: 50px;
+
+    background: steelblue;
+    /* Override conci-gradient from js */
+
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+    
+    display: grid;
+    place-items: center;
+
+}
+
+#progressvalues{
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+
+    font-weight: bold;
+    background-color: #fff;
+
+    border-radius: 50%;
+    
+    display: grid;
+    place-items: center;
+
+}
+
+/* End Progress */

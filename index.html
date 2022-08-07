@@ -23,6 +23,11 @@
 </head>
 <body>
     
+    <!-- Start Progress  -->
+    <div id="progress">
+        <span id="progressvalues">10%</span>
+    </div>
+    <!-- End Progress -->
 
     <!-- Start Header Section -->
     <header>
@@ -78,11 +83,11 @@
                     <ul class="navbar-nav ms-auto"> 
                         <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
                         <li class="nav-item"><a href="#features" class="nav-link">Feature</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="#adv" class="nav-link">About Us</a></li>
                         <li class="nav-item"><a href="#departments" class="nav-link">Department</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Our Team</a></li>
+                        <li class="nav-item"><a href="#pricing" class="nav-link">Our Team</a></li>
                         <li class="nav-item"><a href="#premises" class="nav-link">Premises</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="#faqs" class="nav-link">FAQ</a></li>
                     </ul>
                 </div>
             </div>
@@ -213,9 +218,9 @@
         </div>
     </section>
     <!-- End Info Section -->
-
+    
     <!-- Start ADV Section  -->
-    <section class="advs py-5">
+    <section class="advs py-5" id="adv">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -226,7 +231,7 @@
                     </h3>
                 </div>
                 <div class="col-md-6 text-center mt-3">
-                    <a href="#">
+                    <a href="#" id="videos" data-bs-target="#videomodal" data-bs-toggle="modal" data-video="https://www.youtube.com/embed/2kyPgu03pgE">
                         <i class="fas fa-play fa-3x"></i>
                     </a>
                     <h1>See What We Do</h1>
@@ -552,7 +557,7 @@
     <!-- End Pricing Section -->
 
     <!-- Start Join Us Section -->
-    <section id="" class="py-5">
+    <section id="faqs" class="py-5">
         <div class="container">
             <!-- start title -->
             <div class="row">
@@ -634,11 +639,84 @@
     <!-- Start Footer Section -->
     <footer id="" class="">
         <div class="container-fluid">
-
+            <footer id="" class="bg-dark px-5">
+                <div class="container-fluid">
+                    <div class="row text-light py-4">
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <h5 class="pb-3">
+                                <img src="./assets/img/fav/favicon2.png" width="70px" alt="favicon2" />
+                                Mention Hospital
+                            </h5>
+        
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-phone"></i> +95 94220 4225</li>
+                                <li><i class="fas fa-envelope"></i> admin@mentionhospital.com</li>
+                                <li><i class="fas fa-map-marker-alt"></i> 60st,Mandalay,Myanmar</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <h5 class="mb-3">Vist Us</h5>
+                            <div class="socialicons">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <h5 class="mb-3">Support</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-uppercase footerlinks">Documentation</a></li>
+                                <li><a href="#" class="text-uppercase footerlinks">Faqs</a></li>
+                                <li><a href="#" class="text-uppercase footerlinks">Conditions</a></li>
+                                <li><a href="#" class="text-uppercase footerlinks">Get  Codes</a></li>
+        
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <h5 class="mb-3">Download Apps:</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="nav-link">Google Play Store</a></li>
+                                <li><a href="#" class="nav-link">App Store</a></li>
+                                <li><a href="#" class="nav-link">Direct Link</a></li>
+                            </ul>
+                        </div>
+        
+                    </div>
+        
+                    <div class="text-light d-flex justify-content-center border-top pt-4">
+                        <p>&copy; <span id="getyear"></span> Copyright, Inc. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
         </div>
     </footer>
     <!-- End Footer Section -->
 
+
+    <!-- START MODAL AREA -->
+        <!-- Start Video Modal -->
+        <div id="videomodal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <iframe width="100%" height="350px" src="https://www.youtube.com/embed/2kyPgu03pgE" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Video Modal -->
+
+    <!-- END MODAL AREA -->
 
 
 
